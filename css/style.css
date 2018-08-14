@@ -1,0 +1,5 @@
+section:nth-child(odd), header, footer {
+    background-color: #dff0d8;
+    border-top: #d6e9c6;
+    border-bottom: #d6e9c6;
+}
