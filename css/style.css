@@ -3,3 +3,12 @@ section:nth-child(odd), header, footer {
     border-top: #d6e9c6;
     border-bottom: #d6e9c6;
 }
+
+.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
