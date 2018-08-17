@@ -12,14 +12,16 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container clearfix">
             <!-- Login -->
-            <form method="get" action="/search">
-                <label for="username">username</label>
-                <input type="text" name="username" id="username">
-                <label for="pw">wachtwoord</label>
-                <input type="password" name="pw" id="pw">
-                <input type="submit" value="aanmelden">
+            <form method="get" action="/search" class="form-inline float-right" role="search">
+                <div class="form-group mt-2 mb-2">
+                    <label for="username" class="sr-only">Gebruikersnaam</label>
+                    <input type="text" class="form-control mr-sm-2" name="username" id="username" placeholder="Gebruikersnaam">
+                    <label for="pw" class="sr-only">Wachtwoord</label>
+                    <input type="password" class="form-control mr-sm-2" name="pw" id="pw" placeholder="Wachtwoord">
+                    <input type="submit" class="btn btn-light" value="Aanmelden">
+                </div>
             </form>
         </div>
     </header>
@@ -27,10 +29,10 @@
     <section id="intro">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-                        <a class="navbar-brand" href="#"><img src="img/vdab_60.png"></a>
-                        <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#hoofdmenu">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                <a class="navbar-brand" href="#"><img src="img/vdab_60.png"></a>
+                <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#hoofdmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="hoofdmenu"> 
                     <ul class="nav navbar-nav nav-pills">
@@ -40,7 +42,6 @@
                         <li class="nav-item"><a href="opleidingscentrum_contact_bs.html" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
-            </nav>
         </div>
     </section>
     
