@@ -38,10 +38,10 @@ footer p {
 }
 
 .reasons li {
-    text-indent: -12px;
-    padding-right: 32px;
-    padding-left: 0px;
-    padding-bottom: 24px;
+    text-indent: -0.75rem;
+    padding-right: 2rem;
+    padding-left: 0;
+    padding-bottom: 1.5rem;
 }
 
 .reasons li .oi {
@@ -50,14 +50,6 @@ footer p {
 
 .oi-check {
     color: #28a745;
-}
-
-#news{
-    padding-top: 2rem;
-}
-
-#htmlImage {
-    padding-bottom: 2rem;
 }
 
 time {
