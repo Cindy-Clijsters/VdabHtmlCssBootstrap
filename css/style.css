@@ -27,3 +27,8 @@ footer p {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
+
+#opleidingen h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
