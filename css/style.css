@@ -5,10 +5,15 @@ section:nth-child(odd), header, footer {
 }
 
 .navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .navbar {
     margin-bottom: 0;
+}
+
+.oi {
+    font-size: 0.8em;
+    padding-right: 0.4em;
 }
