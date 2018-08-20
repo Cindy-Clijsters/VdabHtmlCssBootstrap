@@ -1,4 +1,4 @@
-section:nth-child(odd), header, footer {
+section:nth-child(3), header, footer {
     background-color: #dff0d8;
     border-top: #d6e9c6;
     border-bottom: #d6e9c6;
@@ -54,4 +54,13 @@ footer p {
 
 #news{
     padding-top: 2rem;
+}
+
+#htmlImage {
+    padding-bottom: 2rem;
+}
+
+time {
+    font-size: 0.75rem;
+    color: gray;
 }
