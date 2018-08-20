@@ -32,3 +32,26 @@ footer p {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+.reasons {
+    list-style-type: none;
+}
+
+.reasons li {
+    text-indent: -12px;
+    padding-right: 32px;
+    padding-left: 0px;
+    padding-bottom: 24px;
+}
+
+.reasons li .oi {
+    padding-right: 0.9em;
+}
+
+.oi-check {
+    color: #28a745;
+}
+
+#news{
+    padding-top: 2rem;
+}
