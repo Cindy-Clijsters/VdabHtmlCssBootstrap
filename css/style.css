@@ -118,3 +118,9 @@ time {
     background-image: url("../img/env3.jpg");
 }
 
+/* Added styling for address information */
+
+.address {
+    list-style-type: none;
+    padding-left: 0;
+}
