@@ -1,3 +1,7 @@
+a {
+  color: #0056b3;
+}
+
 section:nth-child(3), header, footer {
     background-color: #dff0d8;
     border-top: #d6e9c6;
@@ -55,4 +59,26 @@ footer p {
 time {
     font-size: 0.75rem;
     color: gray;
+}
+
+/* Styling for persons layout */
+
+.persons {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+
+.persons.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.persons li {
+    min-width : 12rem;
+    padding-right: 2rem;
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
