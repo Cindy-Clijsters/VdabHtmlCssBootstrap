@@ -8,6 +8,21 @@ section:nth-child(3), header, footer {
     border-bottom: #d6e9c6;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h-70 {
+    height: 70%!important;
+}
+
+.h-30 {
+    height: 30%!important;
+}
+
 .navbar-brand {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -82,3 +97,24 @@ time {
     padding-bottom: 1.5rem;
     text-align: center;
 }
+
+/* Styling for images on contact page */
+
+#env1 {
+    background-image: url("../img/env1.jpg");
+    background-position: center;
+}
+
+#env4 {
+    background-image: url("../img/env4.jpg");
+    background-position: left top;
+}
+
+#env2 {
+    background-image: url("../img/env2.jpg");
+}
+
+#env3 {
+    background-image: url("../img/env3.jpg");
+}
+
