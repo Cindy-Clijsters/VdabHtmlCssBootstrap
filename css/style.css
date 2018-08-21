@@ -1,5 +1,11 @@
-a {
+/* General styling elements */
+ a {
   color: #0056b3;
+}
+
+time {
+    font-size: 0.75rem;
+    color: gray;
 }
 
 section:nth-child(3), header, footer {
@@ -23,6 +29,13 @@ section:nth-child(3), header, footer {
     height: 30%!important;
 }
 
+.oi {
+    font-size: 0.8em;
+    padding-right: 0.4em;
+}
+
+/* Styling for navigation bar */
+
 .navbar-brand {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -32,10 +45,7 @@ section:nth-child(3), header, footer {
     margin-bottom: 0;
 }
 
-.oi {
-    font-size: 0.8em;
-    padding-right: 0.4em;
-}
+/* Styling for footer */
 
 footer {
     padding-top: 1em;
@@ -47,10 +57,7 @@ footer p {
     -webkit-margin-after: 0em;
 }
 
-#opleidingen h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+/* Styling for reasons list */ 
 
 .reasons {
     list-style-type: none;
@@ -67,13 +74,8 @@ footer p {
     padding-right: 0.9em;
 }
 
-.oi-check {
+.reasons li .oi.oi-check {
     color: #28a745;
-}
-
-time {
-    font-size: 0.75rem;
-    color: gray;
 }
 
 /* Styling for persons layout */
