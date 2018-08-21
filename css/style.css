@@ -1,8 +1,40 @@
-section:nth-child(odd), header, footer {
+/* General styling elements */
+ a {
+  color: #0056b3;
+}
+
+time {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+section:nth-child(3), header, footer {
     background-color: #dff0d8;
     border-top: #d6e9c6;
     border-bottom: #d6e9c6;
 }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h-70 {
+    height: 70%!important;
+}
+
+.h-30 {
+    height: 30%!important;
+}
+
+.oi {
+    font-size: 0.8em;
+    padding-right: 0.4em;
+}
+
+/* Styling for navigation bar */
 
 .navbar-brand {
     padding-top: 0.625rem;
@@ -13,10 +45,7 @@ section:nth-child(odd), header, footer {
     margin-bottom: 0;
 }
 
-.oi {
-    font-size: 0.8em;
-    padding-right: 0.4em;
-}
+/* Styling for footer */
 
 footer {
     padding-top: 1em;
@@ -24,11 +53,104 @@ footer {
 
 footer p {
     padding-bottom: 1em;
+    margin-bottom: 0;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+    -moz-margin-before: 0em;
+    -moz-margin-after: 0em;
 }
 
-#opleidingen h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+/* Styling for reasons list */ 
+
+.reasons {
+    list-style-type: none;
+}
+
+.reasons li {
+    text-indent: -0.75rem;
+    padding-right: 2rem;
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+}
+
+.reasons li .oi {
+    padding-right: 0.9em;
+}
+
+.reasons li .oi.oi-check {
+    color: #28a745;
+}
+
+/* Styling for persons layout */
+
+.persons {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+
+.persons.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.persons li {
+    min-width : 12rem;
+    padding-right: 2rem;
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Styling for images on contact page */
+
+.img-thumbnail .row {
+    margin-left: -10px;
+}
+
+.full-size {
+    height: 100%;
+    width: 100%;
+}
+
+#env1 {
+    padding: 0 0.25rem 0.25rem 0;
+}
+
+#env1 > .background {
+    background-image: url("../img/env1.jpg");
+    background-position: center;
+}
+
+#env4 {   
+    padding: 0 0.125rem 0.25rem 0;
+}
+
+#env4 > .background {
+    background-image: url("../img/env4.jpg");
+    background-position: left top;
+}
+
+#env2 {   
+    padding: 0 0.25rem 0 0;
+}
+
+#env2 > .background {
+    background-image: url("../img/env2.jpg");
+}
+
+#env3 {   
+    padding: 0 0.125rem 0 0;
+}
+
+#env3 > .background {
+    background-image: url("../img/env3.jpg");
+}
+
+/* Added styling for address information */
+
+.address {
+    list-style-type: none;
+    padding-left: 0;
 }
